@@ -27,7 +27,7 @@ Feature: Validate element created dropdown column
       | https://www.kayak.com.br/ |
 
 
-  Scenario Outline: Navigate between
+  Scenario Outline: Navegate for dropdown
     Given I navigate to the kayak main page
     Then I should be in the "home" page
     When I click on the "<name>" "<type>"
